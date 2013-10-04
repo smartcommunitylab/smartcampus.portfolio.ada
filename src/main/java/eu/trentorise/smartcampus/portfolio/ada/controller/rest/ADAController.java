@@ -64,6 +64,7 @@ public class ADAController {
 				map.put("nation", notNull(ae.getDESCRIZIONECITTADINANZAIT().getValue()));
 				map.put("phone", notNull(ae.getRESIDENZATELEFONO().getValue()));
 				map.put("mobile", notNull(ae.getCELLULARE().getValue()));
+				map.put("idGiada", notNull(ae.getIDGIADAPERSONA().getValue()));
 				String address = notNull(ae.getRESIDENZAVIA().getValue()) + " " + notNull(ae.getRESIDENZANUMEROCIVICO().getValue()) + " - " + notNull(ae.getRESIDENZACOMUNEDESCRIZIONEIT().getValue()) + ", " + notNull(ae.getRESIDENZANAZIONEDESCRIZIONEIT().getValue());
 				map.put("address", address);
 			}
