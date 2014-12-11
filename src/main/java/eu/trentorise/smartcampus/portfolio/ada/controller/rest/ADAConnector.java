@@ -55,5 +55,11 @@ public class ADAConnector {
 
   // PER_find_id_ada_20120415
   // <wsdl:operation name="lbs_Libretto_Studente_20120415
-  
+
+  public static void main(String[] args) {
+		ADAWsDataService service = new ADAWsDataService();
+		IADAWsData20120415 port = service.getBasicHttpBindingIADAWsData20120415();
+		System.err.println(port.aesAnagraficaEstesa20120415("PER0073307")); 
+
+  }
 }
