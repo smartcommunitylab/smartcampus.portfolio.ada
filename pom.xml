@@ -99,16 +99,27 @@
 			<artifactId>axis</artifactId>
 			<version>1.4</version>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId> com.springsource.org.apache.commons.discovery </artifactId>
-			<version>0.4.0</version>
-		</dependency>
-		<dependency>
-			<groupId>javax.wsdl</groupId>
-			<artifactId>com.springsource.javax.wsdl</artifactId>
-			<version>1.6.1</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.apache.commons</groupId> -->
+<!-- 			<artifactId> com.springsource.org.apache.commons.discovery </artifactId> -->
+<!-- 			<version>0.4.0</version> -->
+<!-- 		</dependency> -->
+<dependency>
+	<groupId>commons-discovery</groupId>
+	<artifactId>commons-discovery</artifactId>
+	<version>0.4</version>
+</dependency>
+<dependency>
+	<groupId>wsdl4j</groupId>
+	<artifactId>wsdl4j</artifactId>
+	<version>1.6.2</version>
+</dependency>
+
+<!-- 		<dependency> -->
+<!-- 			<groupId>javax.wsdl</groupId> -->
+<!-- 			<artifactId>com.springsource.javax.wsdl</artifactId> -->
+<!-- 			<version>1.6.1</version> -->
+<!-- 		</dependency> -->
 
 		<dependency>
 			<groupId>commons-dbutils</groupId>
